@@ -1,0 +1,36 @@
+
+
+
+/* expanding search bar */
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    background-color: #ffffffce;
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 180px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    -webkit-transition: width 0.4s ease-in-out;-webkit-transition: width 0.4s ease-in-out;
+    
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 15%;
+    height: 50%;
+  }
+  .search {
+      float: right;
+      background-image: url(/img/bsearch.jpg); 
+      background-size: 30px;
+      padding-right: 50px;
+      
+      
+  }
